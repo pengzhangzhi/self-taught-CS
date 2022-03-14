@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7956c2a-f6fd-4f81-8e7d-5ceb366bcf5b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="26JsJche9sTuT3UhmUfZFenyCU2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.SocialNetworkTest.testInfluencersTwoElementGraphManyFollowingMutualFollowingMultipleFollower">
+    <configuration name="SocialNetworkTest.testGuessFollowsGraphManyMentionedCaseDivergence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="twitter" />
+      <option name="MAIN_CLASS_NAME" value="twitter.SocialNetworkTest" />
+      <option name="METHOD_NAME" value="testGuessFollowsGraphManyMentionedCaseDivergence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialNetworkTest.testGuessFollowsGraphManyToManyMentionedCaseDivergence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="twitter" />
+      <option name="MAIN_CLASS_NAME" value="twitter.SocialNetworkTest" />
+      <option name="METHOD_NAME" value="testGuessFollowsGraphManyToManyMentionedCaseDivergence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialNetworkTest.testInfluencersTwoElementGraphManyFollowing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="twitter" />
+      <option name="MAIN_CLASS_NAME" value="twitter.SocialNetworkTest" />
+      <option name="METHOD_NAME" value="testInfluencersTwoElementGraphManyFollowing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialNetworkTest.testInfluencersTwoElementGraphManyFollowingMutualFollowing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="twitter" />
+      <option name="MAIN_CLASS_NAME" value="twitter.SocialNetworkTest" />
+      <option name="METHOD_NAME" value="testInfluencersTwoElementGraphManyFollowingMutualFollowing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialNetworkTest.testInfluencersTwoElementGraphManyFollowingMutualFollowingMultipleFollower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="twitter" />
+      <option name="MAIN_CLASS_NAME" value="twitter.SocialNetworkTest" />
+      <option name="METHOD_NAME" value="testInfluencersTwoElementGraphManyFollowingMutualFollowingMultipleFollower" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SocialNetworkTest.testInfluencersTwoElementGraphManyFollowingMutualFollowingMultipleFollower" />
+        <item itemvalue="JUnit.SocialNetworkTest.testInfluencersTwoElementGraphManyFollowing" />
+        <item itemvalue="JUnit.SocialNetworkTest.testInfluencersTwoElementGraphManyFollowingMutualFollowing" />
+        <item itemvalue="JUnit.SocialNetworkTest.testGuessFollowsGraphManyToManyMentionedCaseDivergence" />
+        <item itemvalue="JUnit.SocialNetworkTest.testGuessFollowsGraphManyMentionedCaseDivergence" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7956c2a-f6fd-4f81-8e7d-5ceb366bcf5b" name="Default Changelist" comment="" />
+      <created>1647152952741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647152952741</updated>
+      <workItem from="1647152959885" duration="1799000" />
+      <workItem from="1647154913068" duration="26894000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="498" y="206" key="#ExtractTest" timestamp="1647164569931">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="498" y="206" key="#ExtractTest/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647164569931" />
+    <state x="513" y="198" width="816" height="826" key="#Intentions" timestamp="1647229481582">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="513" y="198" width="816" height="826" key="#Intentions/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647229481582" />
+    <state x="513" y="198" key="#Notifications" timestamp="1647225036654">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="513" y="198" key="#Notifications/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647225036654" />
+    <state x="651" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1647179278958">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="651" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647179278958" />
+    <state x="92" y="92" width="1658" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1647224022436">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="92" y="92" width="1658" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647224022436" />
+    <state x="726" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1647229164264">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="726" y="249" key="#com.intellij.ide.util.MemberChooser/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647229164264" />
+    <state x="651" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1647226972366">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="651" y="286" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647226972366" />
+    <state x="-1271" y="376" width="613" height="746" key="#xdebugger.evaluate" timestamp="1647230974610">
+      <screen x="-1920" y="336" width="1474" height="864" />
+    </state>
+    <state x="-1271" y="376" width="613" height="746" key="#xdebugger.evaluate/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647230974610" />
+    <state x="701" y="294" key="FileChooserDialogImpl" timestamp="1647153267093">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="701" y="294" key="FileChooserDialogImpl/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647153267093" />
+    <state width="1799" height="358" key="GridCell.Tab.0.bottom" timestamp="1647231036760">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="358" key="GridCell.Tab.0.bottom/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647231036760" />
+    <state width="1799" height="358" key="GridCell.Tab.0.center" timestamp="1647231036759">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="358" key="GridCell.Tab.0.center/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647231036759" />
+    <state width="1799" height="358" key="GridCell.Tab.0.left" timestamp="1647231036759">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="358" key="GridCell.Tab.0.left/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647231036759" />
+    <state width="1799" height="358" key="GridCell.Tab.0.right" timestamp="1647231036760">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="358" key="GridCell.Tab.0.right/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647231036760" />
+    <state width="1799" height="358" key="GridCell.Tab.1.bottom" timestamp="1647231036760">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="358" key="GridCell.Tab.1.bottom/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647231036760" />
+    <state width="1799" height="358" key="GridCell.Tab.1.center" timestamp="1647231036760">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="358" key="GridCell.Tab.1.center/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647231036760" />
+    <state width="1799" height="358" key="GridCell.Tab.1.left" timestamp="1647231036760">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="358" key="GridCell.Tab.1.left/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647231036760" />
+    <state width="1799" height="358" key="GridCell.Tab.1.right" timestamp="1647231036760">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="358" key="GridCell.Tab.1.right/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647231036760" />
+    <state x="401" y="114" key="SettingsEditor" timestamp="1647154894753">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="401" y="114" key="SettingsEditor/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647154894753" />
+    <state width="929" height="445" key="XDebugger.FullValuePopup" timestamp="1647224595400">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="929" height="445" key="XDebugger.FullValuePopup/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647224595400" />
+    <state x="619" y="433" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1647224846459">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="619" y="433" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647224846459" />
+    <state x="584" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1647226288494">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="584" y="235" width="672" height="678" key="search.everywhere.popup/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1647226288494" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/twitter/ExtractTest.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/twitter/SocialNetwork.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/twitter/SocialNetwork.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ps1$ExtractTest.ic" NAME="ExtractTest Coverage Results" MODIFIED="1647164512793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>twitter.*</FILTER>
+    </SUITE>
+  </component>
+</project>
