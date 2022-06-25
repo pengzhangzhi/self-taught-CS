@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block css %}
+    <link rel="stylesheet" href="/static/vendors/parsons/parsons.css"/>
+{% endblock %}
+{% block base_content %}
+        <h2>Required Problems</h2>
+        <ul class="list-group" id="required-list"></ul>
+        
+        <h2 style="margin-top: 30px;">Optional Problems</h2>
+        <ul class="list-group" id="optional-list"></ul>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        window.addEventListener( "pageshow", function ( event ) {
+            var historyTraversal = event.persisted || 
+                                    ( typeof window.performance != "undefined" && 
+                                        window.performance.navigation.type === 2 );
+            if ( historyTraversal ) {
+                // Handle page restore.
+                window.location.reload();
+            }
+        });
+        fetch('/get_problems')
+            .then(response => response.json())
+            .then(({required, optional}) => {
+                required['names'].map((name, index) => {
+                    const link = document.createElement("a");
+                    link.appendChild(document.createTextNode(name));
+                    link.href = required['paths'][index];
+                    link.classList.add("list-group-item");
+                    document.getElementById('required-list').appendChild(link);
+                });
+                optional['names'].map((name, index) => {
+                    const link = document.createElement("a");
+                    link.appendChild(document.createTextNode(name));
+                    link.href = optional['paths'][index];
+                    link.classList.add("list-group-item");
+                    document.getElementById('optional-list').appendChild(link);
+                })
+            })
+    </script>
+{% endblock %}

@@ -1,0 +1,93 @@
+X:8628
+T:Prelude BWV 846 no. 1
+C:Johann Sebastian Bach
+M:4/4
+L:1/16
+Q:1/4=70
+V:1
+V:2
+V:3
+K:C
+V:1
+z2 Gc eGce z2 Gc eGce| z2 Ad fAdf z2 Ad fAdf| z2 Gd fGdf z2 Gd fGdf|
+V:2
+z E7 z E7|z D7 z D7|z D7 z D7|
+V:3
+C8 C8|C8 C8|B,8 B,8|
+%
+V:1
+ z2 Gc eGce z2 Gc eGce| z2 Ae aAea z2 Ae aAea| z2 ^FA dFAd z2 FA dFAd|
+V:2
+z E7 z E7|z E7 z E7|z D7 z D7|
+V:3
+C8 C8|C8 C8|C8 C8|
+%
+V:1
+ z2 Gd gGdg z2 Gd gGdg| z2 EG cEGc z2 EG cEGc| z2 EG cEGc z2 EG cEGc|
+V:2
+z D7 z D7|z C7 z C7|z C7 z C7|
+V:3
+B,8 B,8|B,8 B,8|A,8 A,8|
+%
+V:1
+ z2 D^F cDFc z2 DF cDFc| z2 DG BDGB z2 DG BDGB| z2 EG ^cEGc z2 EG cEGc|
+V:2
+z A,7 z A,7|z B,7 z B,7|z _B,7 z B,7|
+V:3
+D,8 D,8|G,8 G,8|G,8 G,8|
+%
+V:1
+ z2 DA dDAd z2 DA dDAd| z2 DF BDFB z2 DF BDFB| z2 CG cCGc z2 CG cCGc|
+V:2
+z A,7 z A,7|z _A,7 z A,7|z G,7 z G,7|
+V:3
+F,8 F,8|F,8 F,8|E,8 E,8|
+%
+V:1
+ z2 A,C FA,CF z2 A,C FA,CF| z2 A,C FA,CF z2 A,C FA,CF| z2 G,B, FG,B,F z2 G,B, FG,B,F|
+V:2
+z F,7 z F,7|z F,7 z F,7|z D,7 z D,7|
+V:3
+E,8 E,8|D,8 D,8|G,,8 G,,8|
+%
+V:1
+ z2 G,C EG,CE z2 G,C EG,CE| z2 _B,C EB,CE z2 B,C EB,CE| z2 A,C EA,CE z2 A,C EA,CE|
+V:2
+z E,7 z E,7|z G,7 z G,7|z F,7 z F,7|
+V:3
+C,8 C,8|C,8 C,8|F,,8 F,,8|
+%
+V:1
+ z2 A,C _EA,CE z2 A,C EA,CE| z2 B,C DB,CD z2 B,C DB,CD| z2 G,B, DG,B,D z2 G,B, DG,B,D|
+V:2
+z C,7 z C,7|z F,7 z F,7|z F,7 z F,7|
+V:3
+^F,,8 F,,8|_A,,8 A,,8|G,,8 G,,8|
+%
+V:1
+ z2 G,C EG,CE z2 G,C EG,CE| z2 G,C FG,CF z2 G,C FG,CF| z2 G,B, FG,B,F z2 G,B, FG,B,F|
+V:2
+z E,7 z E,7|z D,7 z D,7|z D,7 z D,7|
+V:3
+G,,8 G,,8|G,,8 G,,8|G,,8 G,,8|
+%
+V:1
+ z2 A,C ^FA,CF z2 A,C FA,CF| z2 G,C GG,CG z2 G,C GG,CG| z2 G,C FG,CF z2 G,C FG,CF|
+V:2
+z _E,7 z E,7|z E,7 z E,7|z D,7 z D,7|
+V:3
+G,,8 G,,8|G,,8 G,,8|G,,8 G,,8|
+%
+V:1
+ z2 G,B, FG,B,F z2 G,B, FG,B,F| z2 G,_B, EG,B,E z2 G,B, EG,B,E|z2 F,A, CFCA, CA,F,A, F,D,F,D,|
+V:2
+z D,7 z D,7|z C,7 z C,7|z C,15|
+V:3
+G,,8 G,,8|C,,8 C,,8|C,,16|
+%
+V:1
+z2 GB dfdB dBGB DFED|[E16G16c16]|]
+V:2
+z B,,15|C,16|]
+V:3
+C,,16|C,,16|]

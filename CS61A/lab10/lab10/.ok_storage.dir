@@ -1,0 +1,4 @@
+'over-or-under-correct', (0, 70)
+'make-adder-correct', (512, 70)
+'composed-correct', (1024, 70)
+'pow-correct', (1536, 70)

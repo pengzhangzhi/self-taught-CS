@@ -1,0 +1,28 @@
+problem_name: chain
+
+problem_description: |
+  Returns whether there exists a path in t where all nodes
+  share the same label.
+
+  <pre><code>
+  >>> all_fives = Tree(5, [Tree(5), Tree(5, [Tree(5)])])
+  >>> chain(all_fives)
+  True
+  >>> t1 = Tree(1, [Tree(3, [Tree(4)]), Tree(1)])
+  >>> chain(t1)
+  True
+  >>> t2 = Tree(1, [Tree(3, [Tree(4)]), Tree(5)])
+  >>> chain(t2)
+  False
+  </code></pre>
+
+code_lines: |
+  def chain(t): #0given
+  if t.!BLANK: #blank
+  return True
+  for b in t.!BLANK: #blank
+  if !BLANK == !BLANK and chain(b): #blank
+  return True
+  return False
+
+test_fn: chain

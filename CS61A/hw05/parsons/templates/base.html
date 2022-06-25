@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Practice Problems</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    {% block css %} {% endblock %}
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark mb-4">
+        <div class="navbar-brand"><a href="/" style="color:inherit; text-decoration: none;">Faded Parsons Problems </a></div>
+        {% if timer_start and not hide_timer %}
+            {# TODO: Properly enable the bootstrap tooltip #}
+            <div id="timer" class="float-right ml-auto navbar-brand"
+                    data-toggle="tooltip" title="You have 10 minutes to solve each problem." data-placement="bottom">
+                <span id="minutes"></span>:<span id="seconds"></span>
+                <i class="fas fa-question-circle"></i>
+            </div>
+            <ul id="timerToggle" class="navbar-nav float-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="$('#timer').toggle(); $('#timerToggle').toggleClass('ml-auto'); return false;">Toggle Timer</a>
+                </li>
+            </ul>
+        {% endif %}
+    </nav>
+
+    <div class="container">
+        {% block base_content %} {% endblock %}
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+<script>
+    var logEvent = function(question_type, question_name, event_type, current_state, log_level) {
+        log_data = {
+            'question_type': question_type,
+            'question_name': question_name,
+            'event_type': event_type,
+            'current_state': current_state,
+            'log_level': log_level,
+        }
+        var sixty_sec = 1/24/60;
+        if (question_type == 'parsons' || question_type == 'coding') {
+            // The /solutions page doesn't have a concept of problem type, so store this under 2 names.
+            Cookies.set(question_name, current_state, {expires: sixty_sec * 4}); //expires is in days
+            Cookies.set(question_type + '/' + question_name, current_state, {expires: sixty_sec});
+        }
+        {% if config['DEBUG'] %}
+            console.log('Attempting to log: ' ,log_data);
+        {% endif %}
+        // $.ajax({
+        //     type: 'post',
+        //     data: log_data,
+        //     url: '/log_event/',
+        //     dataType: 'html',
+        // })
+    };
+    var sleep = function(time) {
+        return new Promise((resolve) => setTimeout(resolve, time*1000));
+    };
+</script>
+
+{% block scripts %} {% endblock %}
+
+<script>
+    {% if timer_start %}
+        var sec = {{ timer_start }};
+        var pad = function(val) {
+            return val > 9 ? val: "0" + val;
+        }
+        setInterval(function(){
+            sec++;
+            {% if not hide_timer %}
+                $('#seconds').html(pad(sec%60));
+                $('#minutes').html(parseInt(sec/60,10));
+                {% if problem_name == 'pre_test_comp_2' %}
+                    if (sec >= 10*60) {
+                       $('#submit').trigger('click');
+                   }
+                {% endif %}
+                {% if problem_name in ['dfs_detect_cycle', 'trie_word_break', 'trie_fuzzy_match', 'trie_collapsible', 'dfs_mark_nodes_in_cycle'] %}
+                    if (sec >= 55 * 60) {
+                        // $('#move-on').trigger('click');
+                        $(window).on("beforeunload", function() {});
+                        logCoding('move_on', codeAndApproach())
+                        window.location = '/multi/?problem_name=post_survey';
+                    }
+                {% endif %}
+            {% endif %}
+            {% if config['ENABLE_MOVE_ON_MIN'] is not none %}
+                if (sec >= {{ config['ENABLE_MOVE_ON_MIN'] }}*60) {
+                    // && submitCount >= 10) {
+                    enableMoveOnTimeout();
+                };
+            {% endif %}
+            {% if config['FORCE_MOVE_ON_MIN'] %}
+                if (sec >= {{ config['FORCE_MOVE_ON_MIN'] }}*60) {
+                    $('#submit').trigger('click');
+                    $('#move-on').trigger('click');
+                };
+            {% endif %}
+        }, 1000);
+    {% endif %}
+</script>
+
+</html>

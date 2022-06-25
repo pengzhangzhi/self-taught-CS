@@ -1,0 +1,7 @@
+README.md
+setup.py
+faded_parsons.egg-info/PKG-INFO
+faded_parsons.egg-info/SOURCES.txt
+faded_parsons.egg-info/dependency_links.txt
+faded_parsons.egg-info/requires.txt
+faded_parsons.egg-info/top_level.txt

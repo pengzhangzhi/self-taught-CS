@@ -1,0 +1,43 @@
+{
+    "name": "Homework 5",
+    "endpoint": "cal/cs61a/sp22/hw05",
+    "src": [
+        "hw05.py",
+        "parsons_probs/chain.py",
+        "parsons_probs/flatten_link.py"
+    ],
+    "tests": {
+        "hw*.py": "doctest",
+        "tests/*.py": "ok_test",
+        "parsons_probs/chain.py:chain": "doctest",
+        "parsons_probs/flatten_link.py:flatten_link": "doctest"
+    },
+    "default_tests": [
+        "midsem_survey",
+        "chain",
+        "flatten_link",
+        "has_path",
+        "duplicate_link",
+        "deep_map_mut"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ],
+    "parsons": {
+        "has_path": {
+            "required": [
+                "chain"
+            ]
+        },
+        "duplicate_link": {
+            "required": [
+                "flatten_link"
+            ]
+        }
+    }
+}

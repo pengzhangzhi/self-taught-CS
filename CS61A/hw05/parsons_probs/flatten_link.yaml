@@ -1,0 +1,26 @@
+problem_name: flatten_link
+
+problem_description: |
+  Write a function <code>flatten_link</code> that takes in a linked
+  list <code>lnk</code> and returns the sequence as a Python list.
+  If <code>lnk</code> has nested linked lists, <code>flatten_link</code>
+  should flatten <code>lnk</code>.
+
+  <pre><code>
+  >>> link = Link(1, Link(2, Link(3, Link(4))))
+  >>> flatten_link(link)
+  [1, 2, 3, 4]
+  >>> flatten_link(Link.empty)
+  []
+  >>> deep_link = Link(Link(1, Link(2, Link(3, Link(4)))), Link(Link(5), Link(6)))
+  >>> flatten_link(deep_link)
+  [1, 2, 3, 4, 5, 6]
+  </code></pre>
+
+code_lines: |
+  def flatten_link(lnk): #0given
+  if lnk is !BLANK: #blank #1given
+  return []
+  if isinstance(lnk.first, Link): #1given
+  return flatten_link(!BLANK) + flatten_link(!BLANK) #blank
+  return [!BLANK] + flatten_link(!BLANK) #blank

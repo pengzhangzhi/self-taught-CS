@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7384a2da-c8b2-4366-9bd9-50b42856a1d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="26N6dTKAd8B4pcXf8t68UAtBJCo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.ConcreteEdgesGraphTest and 1 more">
+    <configuration name="ConcreteEdgesGraphTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph" />
+      <option name="MAIN_CLASS_NAME" value="graph.GraphInstanceTest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="graph.ConcreteEdgesGraphTest" />
+        <pattern testClass="graph.ConcreteVerticesGraphTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcreteEdgesGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph" />
+      <option name="MAIN_CLASS_NAME" value="graph.ConcreteEdgesGraphTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcreteEdgesGraphTest.testVertices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph" />
+      <option name="MAIN_CLASS_NAME" value="graph.ConcreteEdgesGraphTest" />
+      <option name="METHOD_NAME" value="testVertices" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphStaticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph" />
+      <option name="MAIN_CLASS_NAME" value="graph.GraphStaticTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConcreteEdgesGraphTest and 1 more" />
+        <item itemvalue="JUnit.ConcreteEdgesGraphTest" />
+        <item itemvalue="JUnit.ConcreteEdgesGraphTest.testVertices" />
+        <item itemvalue="JUnit.GraphStaticTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7384a2da-c8b2-4366-9bd9-50b42856a1d8" name="Default Changelist" comment="" />
+      <created>1647251784018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647251784018</updated>
+      <workItem from="1647252456238" duration="1168000" />
+      <workItem from="1648697212984" duration="12714000" />
+      <workItem from="1649300341658" duration="3315000" />
+      <workItem from="1650614198092" duration="437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="674" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1648720939645">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="674" y="241" key="#com.intellij.ide.util.MemberChooser/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648720939645" />
+    <state x="701" y="294" key="FileChooserDialogImpl" timestamp="1648697299968">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="701" y="294" key="FileChooserDialogImpl/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648697299968" />
+    <state width="1799" height="294" key="GridCell.Tab.0.bottom" timestamp="1648862590365">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="294" key="GridCell.Tab.0.bottom/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648862590365" />
+    <state width="1799" height="294" key="GridCell.Tab.0.center" timestamp="1648862590365">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="294" key="GridCell.Tab.0.center/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648862590365" />
+    <state width="1799" height="294" key="GridCell.Tab.0.left" timestamp="1648862590364">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="294" key="GridCell.Tab.0.left/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648862590364" />
+    <state width="1799" height="294" key="GridCell.Tab.0.right" timestamp="1648862590365">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1799" height="294" key="GridCell.Tab.0.right/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648862590365" />
+    <state x="401" y="114" key="SettingsEditor" timestamp="1648710115678">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="401" y="114" key="SettingsEditor/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648710115678" />
+    <state x="692" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1648718203507">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="692" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648718203507" />
+    <state x="577" y="250" width="672" height="677" key="run.anything.popup" timestamp="1648710128201">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="577" y="250" width="672" height="677" key="run.anything.popup/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648710128201" />
+    <state x="584" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1648710117161">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="584" y="235" width="672" height="678" key="search.everywhere.popup/-1920.336.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1648710117161" />
+  </component>
+</project>

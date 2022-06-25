@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: faded-parsons
+Version: 1.0
+Summary: faded-parsons implements a frontend for faded parsons problems that interfaces with OKPy. It reuses much of Nate Weinman's work, and you can find the original paper at https://dl.acm.org/doi/abs/10.1145/3328778.3372639
+Home-page: https://github.com/Cal-CS-61A-Staff/faded-parsons
+Author: Tommy Joseph, Akshit Dewan
+License: UNKNOWN
+Keywords: education,parsons
+Platform: UNKNOWN
+
+UNKNOWN
+

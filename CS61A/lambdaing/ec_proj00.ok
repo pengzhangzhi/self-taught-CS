@@ -1,0 +1,23 @@
+{
+    "name": "EC Mini-Project: Magic the Lambdaing",
+    "endpoint": "cal/cs61a/sp22/ec_proj00",
+    "src": [
+        "classes.py"
+    ],
+    "tests": {
+        "classes.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "01",
+        "02"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
