@@ -16,3 +16,4 @@
 很遗憾，我发现的绝大多数课程都来自国外，主要来源于MIT, UCB, Stanford这样的美国名校。不过我也注意到国内有些老师正在真正“改革”中国的计算机教育，其中我受益良多的是浙江大学翁恺老师的这门[程序设计入门——C语言](https://www.icourse163.org/course/zju-199001)。
 
 
+**Update**, 08/2023, I have become a Ph.D. student in computer science.
